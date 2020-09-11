@@ -18,7 +18,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('你好|陈圆清|很高兴认识你');
+      S.UI.simulate('你好|陈圆清|很高兴认识你|有话下面说哦');
     }
 
     S.Drawing.loop(function () {
